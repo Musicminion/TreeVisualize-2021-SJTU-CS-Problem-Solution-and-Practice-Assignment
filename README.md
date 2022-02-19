@@ -77,9 +77,7 @@
 
 - 以上图的二叉树计算的为例，可视化区域一的范围是：
 
-$$
-{(x,y)∣0.135 \times x_{max} \le x \le 0.4325 \times x_{max},0\le y \le 0.9 \times y_{max}}
-$$
+$${(x,y)∣0.135 \times x_{max} \le x \le 0.4325 \times x_{max},0\le y \le 0.9 \times y_{max}}$$
 
 
 
