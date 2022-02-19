@@ -7,7 +7,7 @@ FLTK的配置我折腾了好久，一晚上的折腾终于搭建好了编译环�
 - 打开IDE文件夹，再打开`.sln` 后缀的文件，进入 Visual Studio 2022的页面
 - 提示选择配置，注意，这个时候不要选择最新的配置，否则会报错，例如下图，请一定选择 `10.0.18362 ` 选择完点确定
 
-![image-20211113182051328](C:/Users/zhangziqian/OneDrive - musicminion/2021-2022-1/2021-2022-1 Problem Solution and Practice/Assignment/Exercise 09/File Submit/Ex8 solution/Exercise 8 解析文档.assets/image-20211113182051328.png)
+![image](https://user-images.githubusercontent.com/84625273/154788138-b933f7f6-2a5e-4a69-8f08-c88dd09a0008.png)
 
 - 单机 `生成->生成解决方案` 即可。等待时间很长。
 - 一段时间后会提示`生成79个文件，成功79个，错误0个` 方可关闭程序
@@ -19,12 +19,12 @@ FLTK的配置我折腾了好久，一晚上的折腾终于搭建好了编译环�
   - `lib` 文件夹里面放置所有的14个 `lib` 的文件，可能会遇到`x86`  `x64` 的文件夹的情况，如果不确定，直接把所有的14个 `lib` 的文件在`x86`  `x64` 的文件夹这两个文件夹里面都拷贝一份，就是分别移动到`x86`  `x64` 的文件夹
 - 完成后，创建一个**空项目**！！！visual studio的空项目！！！必须是空项目，看图。空项目->C++
 
-![image-20211113183323192](C:/Users/zhangziqian/OneDrive - musicminion/2021-2022-1/2021-2022-1 Problem Solution and Practice/Assignment/Exercise 09/File Submit/Ex8 solution/Exercise 8 解析文档.assets/image-20211113183323192.png)
+![image](https://user-images.githubusercontent.com/84625273/154788149-72a0f28c-0df0-49fa-8de7-6e51fa763afd.png)
 
 - 创建后，创建一个`main` 的源文件。
 - 再按照下图配置，对比就是了！特别注意，**所有配置！！！所有平台！！！**
 
-![image-20211113182901548](C:/Users/zhangziqian/OneDrive - musicminion/2021-2022-1/2021-2022-1 Problem Solution and Practice/Assignment/Exercise 09/File Submit/Ex8 solution/Exercise 8 解析文档.assets/image-20211113182901548.png)
+![image](https://user-images.githubusercontent.com/84625273/154788155-aa3375c0-d410-4338-9ef3-28eee865ec0a.png)
 
 - 特别注意 这里的附加依赖项！！！修改一下
 
@@ -36,6 +36,6 @@ fltkjpegd.lib
 fltkimagesd.lib
 ```
 
-![image-20211113183607206](C:/Users/zhangziqian/OneDrive - musicminion/2021-2022-1/2021-2022-1 Problem Solution and Practice/Assignment/Exercise 09/File Submit/Ex8 solution/Exercise 8 解析文档.assets/image-20211113183607206.png)
+![image](https://user-images.githubusercontent.com/84625273/154788161-79b79c9e-e822-4181-8225-5c628c1733c5.png)
 
 - 最后运行测试代码
